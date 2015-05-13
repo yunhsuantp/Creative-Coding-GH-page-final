@@ -18,8 +18,8 @@ var value = 0;
 
 function preload() {
   soundFormats('mp3', 'ogg');
-  soundFile = loadSound('../file/song');
-  tone1 = loadSound('../file/tone1');
+  soundFile = loadSound('file/song');
+  tone1 = loadSound('file/tone1');
 }
 
 function setup() {
